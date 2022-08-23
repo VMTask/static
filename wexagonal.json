@@ -1,0 +1,19 @@
+{
+	"request": [
+		{
+			"enable": true,
+			"name": "npm",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^http(s?)://npm\\.elemecdn\\.com/(.*)",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://cdn1.tianli0.top/npm/$2"
+		}
+	],
+	"sendHeader": [],
+	"receiveHeader": [],
+	"receiveBody": []
+}
